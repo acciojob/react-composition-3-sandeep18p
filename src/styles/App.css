@@ -1,0 +1,24 @@
+.one{
+    margin: 180px;
+   
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip {
+    display: inline-block;
+  }
+  
+  /* .tooltiptext {
+    /* visibility: hidden; */
+   
+  } */
+  
+  /* .tooltip:hover .tooltiptext {
+    visibility: visible;
+  } */
+  
+ 
