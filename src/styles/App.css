@@ -7,6 +7,9 @@
     display: inline-block;
   }
   
+  .visible{display: block;}
+  .invisible{display: none;}
+
   .tooltip {
     display: inline-block;
   }
