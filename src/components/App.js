@@ -1,22 +1,21 @@
-// App.js
-
 import React from "react";
-import './../styles/App.css'; // Assuming you have a separate CSS file for App styling
+import "./../styles/App.css";
 import Tooltip from "./Tooltip";
 
 const App = () => {
   return (
-    <>
-      {/* First tooltip with different text */}
-      <div className="one">
-          <Tooltip text="This is a tooltip for the first element"><h1>Hover over me</h1></Tooltip>
-      </div>
-      {/* Second tooltip with different text */}
-      <div className="one">
-          <Tooltip text="This is a tooltip for the second element"><h1>Hover over me</h1></Tooltip>
-      </div>
-    </>
-  )
-}
+    <div>
+      <h2 class="tooltip">
+        <Tooltip text="This is a tooltip">Hover over me</Tooltip>
+      </h2>
+      <br />
+      <p class="tooltip">
+        <Tooltip text="This is another tooltip">
+          Hover over me to see another tooltip
+        </Tooltip>
+      </p>
+    </div>
+  );
+};
 
 export default App;
